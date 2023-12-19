@@ -1,0 +1,153 @@
+/* Reset some default styles */
+body,
+h1,
+h2,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+  background-color: #b9eb98b2;
+  color: #333;
+}
+section {
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.search {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+label {
+  font-weight: bold;
+  color: #333;
+}
+
+input,
+select,
+button {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #547d54;
+  color: #fff;
+  cursor: pointer;
+}
+
+.plantes {
+  margin-top: 20px;
+}
+
+.plant {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 50px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.plant img {
+  width: 200px;
+  height: 172px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.plant p {
+  margin: 10px 0;
+  color: #555;
+}
+
+/* nav style */
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 50px;
+  background-color: #55555565;
+  width: 100vw;
+  height: 80px;
+}
+nav img{
+  width: 130px;
+  margin-left: 10px;
+}
+nav a{
+text-decoration: none;
+color: black;
+}
+
+
+
+/* panier  */
+
+.panier {
+  margin: 20px;
+}
+
+.panier h2 {
+  color: #333;
+}
+
+.panier ul {
+  list-style: none;
+  padding: 0;
+}
+
+.panier li {
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.panier img {
+  max-width: 80px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.panier a {
+  margin-left: auto;
+  color: #e44d26;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.panier button {
+  background-color: #e44d26;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.panier button:hover {
+  background-color: #333;
+}
